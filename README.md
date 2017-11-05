@@ -1,2 +1,3 @@
 # Morse-Code-Hacking
 A hacking application which will use ML to track open ports in TCP/IP protocols and send them to base using morse code , in the form of sound, and decrypt them in the base system.
+This application will use JAVA as the primary language and other related languages such as Scala, NodeJS, JFlex, etc. , to convert tracked open ports of TCP/IP protocols into Morse Codes and transmit it using miniature sound waves. The tracking part will use Maching Learning. When it reaches the bast receiver system, automatic keyoggers , password decryptors and hash generators, etc. will be generated to hack into any social network, system or any other web network, after the morse codes are decrypted. The ML part will take the use of C, C++, Arduino Programming.
