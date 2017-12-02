@@ -17,10 +17,11 @@ public class Encrypt{
     	String s = text;
         String message = "";
 
-        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+        String alphabet = "abcdefghijklmnopqrstuvwxyz1234567890";
         String[] morseAlphabet = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....",  
         "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", 
-        "...-", ".--", "-..-", "-.--", "--.."};
+        "...-", ".--", "-..-", "-.--", "--..", ".____", "..___", "...__", "...._", ".....", "_....",
+        "__...", "___..", "____.", "_____"};
 
         for (char alphabetLetter : text.toCharArray())
         {
