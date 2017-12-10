@@ -5,7 +5,7 @@ import java.lang.*;
   public static void main(String args[])
 {
     Scanner sc= new Scanner(System.in);
-    System.out.println("Enter text: ");
+    System.out.print("Enter text: ");
     String address=sc.next();
     int length=address.length();
     
@@ -20,6 +20,7 @@ import java.lang.*;
             if(z==b[j])
         {
             encoded =encoded+n[j];
+            encoded = encoded + " ";
             
         }
             
