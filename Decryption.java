@@ -5,7 +5,7 @@ public class Decryption {
     public static void main ( String [] args )
     {
         Scanner input = new Scanner(System.in);
-        System.out.println( "Please enter the Morse code you want to translate into English: " );
+        System.out.print( "Please enter the Morse code received: " );
         String code = input.nextLine();
         System.out.println( convert(code));
     }
